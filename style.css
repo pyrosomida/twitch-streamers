@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P|Pathway+Gothic+One);
+
+.heading {
+	font-family: 'Press Start 2P';
+	color:#7a727c;
+	margin:20px 0 10px 0;
+	text-align:center;
+}
+
+.container {
+	max-width: 760px;
+}
+
+.stream {
+  border-radius: 15px 5px 15px 5px;
+  height: 70px;
+  margin-bottom: 5px;
+}
+
+.online_stream {
+  background-color:#7EA400;
+}
+
+.offline_stream {
+  background-color:#476ba5;
+}
+
+.closed_stream {
+  background-color:#B61600;
+}
+
+.offline_account {
+	color:#f7f2f2;
+}
+
+.account {
+	font-family: 'Press Start 2P';
+	font-size: 0.8em;
+}
+.game_details {
+	font-family:'Pathway Gothic One';
+	font-size:1.3em;
+	color:#f7f2f2;
+}
+.logo {
+  width:44px;
+  height:44px;
+  border-radius:10px;
+  border:3px solid #dddddb;
+}
+
+.account_link:link{
+	color:#f7f2f2;
+}
+
+.visi_button {
+	font-family: 'Press Start 2P';
+	width:120px;
+	height:25px;
+	border-radius:5px;
+	text-align:center;
+	margin-bottom:10px;
+	color:#f7f2f2;
+}
+#all_button:hover, #online_button:hover, #offline_button:hover, #closed_button:hover {
+	background-color:orange;
+	text-decoration: underline;
+}
+
+#all_button {
+	background-color:#7a727c;
+}
+
+#online_button {
+	background-color:#7EA400;
+
+}
+
+#offline_button{
+	background-color:#476ba5;
+}
+#closed_button {
+	background-color:#B61600;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .vertical-align {
+        display: flex;
+        align-items: center;
+    }
+}
